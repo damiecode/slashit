@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.ant-select-arrow {
+  color: #fff;
+}
+
+.ant-select {
+  font-weight: bolder;
+  font-size: 18px;
+  color: #fff;
+}
+
+.ant-input:placeholder-shown {
+  margin-top: -4px;
+  color: #fff;
+}
+
+.ant-input:focus {
+  border-color: #fff;
+  background: transparent;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+/* .input {
+  border-color: #fff;
+  border-width: 20px;
+  background: transparent;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.ant-select {
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 7px;
+  background: transparent;
+}
+
+.ant-input:focus {
+  border-color: #fff;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+} */
+
