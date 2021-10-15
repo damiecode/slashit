@@ -4,6 +4,7 @@ import { isMobile } from "react-device-detect";
 import MobileHome from './mobile/Homepage';
 import { ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Welcome from './Welcome';
 
 const client = new ApolloClient({
   uri: "https://api-slashit-staging.herokuapp.com/graphql",
@@ -23,9 +24,8 @@ function App() {
       <div className="relative">
         <Router>
           <Switch>
-            <Route path="/orderID=:id">
-              <Home client={client} />
-            </Route>
+            <Route path="/" children={<Welcome />} exact={true} />
+            <Route path="/orderID=:id" children={<Home />} exact={true} />
           </Switch>
         </Router>
       </div>

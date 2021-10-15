@@ -94,7 +94,7 @@ const Home = () => {
                         size="large"
                         name="phone"
                         bordered={false}
-                        style={{color: "#fff", fontSize: "22px", background: "transparent", width: "100%" }}
+                        style={{color: "#fff", fontSize: "18px", background: "transparent", width: "100%" }}
                         placeholder="Text me App Link"
                       />
                   </Form.Item>
@@ -115,7 +115,7 @@ const Home = () => {
         </Card>
       </div>
       <div className="grid place-items-center w-1/5">
-        <h3 className="text-white opacity-50 text-xl text-center">Get the app now to shop this
+        <h3 className="text-white opacity-50 text-lg text-center">Get the app now to shop this
           product and more products like this
           one.
         </h3>
